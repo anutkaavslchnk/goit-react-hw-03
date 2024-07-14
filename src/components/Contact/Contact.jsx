@@ -1,7 +1,7 @@
 
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaUser } from "react-icons/fa6";
-import s from './ContactList.module.css';
+import s from "../ContactList/ContactList.module.css";
 const Contact = ({id, name,number, handleDeleteCard}) => {
   return(
 <li className={s.itemcont}>
